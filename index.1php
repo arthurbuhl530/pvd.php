@@ -1,0 +1,17 @@
+<?php
+# int numero = 22;
+$numero = 22;
+
+#string palavra = "bolsonaro;
+$palavra = "bolsonaro";
+
+#System.out.println(numero);
+echo "$numero <br>";
+
+
+
+if ($numero > 4){
+    echo "$palavra <br>";
+    
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST">
+        <label>Informe uma frase</label><br>
+        <input type="text"  name="frase" 
+        placeholder="Digite uma frase"> 
+        <input type="submit" name="enviar" value="Salvar">
+    </form>
+
+    <?php
+    if($_SERVER['REQUEST_METHOD'] == 'POST'){
+        $_POST['frase'];
+        echo $frase;
+    }
+    ?>
+
+
+<form method="Num">
+    <label>Informe um numero:</label>
+    <input type="number" name="numero" 
+    placeholder="Digite o numero">
+    <input type="Submit" name="Enviar" value="salvar">
+
+</form>
+if($_SERVER['REQUEST_METHOD'] == 'Num'){
+        $_POST['frase'];
+        echo $frase;
+    }
+    ?>
+
+</body>
+</html>
